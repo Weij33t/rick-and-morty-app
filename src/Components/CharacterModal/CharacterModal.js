@@ -83,7 +83,7 @@ export const CharacterModal = () => {
         .map((episode) => loadEpisodeInfo(episode))
       Promise.all(newEpisodes).then((data) => setEpisodes(data))
     })()
-  }, [])
+  }, [characterId])
 
   const loadEpisodeInfo = async (episode) => {
     const info = await charactersApi.getEpisodeByUrl(episode)
