@@ -4,4 +4,4 @@ How to run:
 2. Run npm i / yarn
 3. Run npm start / yarn start
 
-Deployed app: elfsight.netlify.app
+Deployed app: [elfsight.netlify.app](elfsight.netlify.app)
