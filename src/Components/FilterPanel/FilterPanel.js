@@ -50,8 +50,8 @@ export const FilterPanel = ({ getCharactersByFilter }) => {
   const [type, setType] = useState('')
 
   const toggleAliveStatus = () => {
-    if (status === 'Alive') setStatus('Died')
-    else if (status === 'Died') setStatus('Unknown')
+    if (status === 'Alive') setStatus('Dead')
+    else if (status === 'Dead') setStatus('Unknown')
     else setStatus('Alive')
   }
 
